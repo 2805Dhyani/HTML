@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var choice = prompt("welcome to Area calculator.\n please enter your choice.\n1.Area of rectangle.\n2.Area of triangle.\n3.Area of circle\n4.Area of parallelogram");
+
+            if (choice == '1') {
+                var l = prompt('Enter the length ')
+
+                var b = prompt('Enter the breath ')
+
+                var result = Number(l) * Number(b) 
+
+                alert('The Area is' + result)
+
+             }
+
+             if (choice == '2') {
+                var h = prompt('Enter the height')
+
+                var b = prompt('Enter the base')
+
+                var result = Number(h) * Number(b)/2
+                
+                alert('The Area is' + result)
+             }
+
+             if (choice == '3') {
+                    var d = prompt('Enter the diameter')
+
+                    var c = prompt('Enter the circumference')
+
+                    var result = Number(d) * Number(c) / 3
+
+                    alert('The Area is' + result)
+                }
+
+                if(choice == '4') {
+                        var b = prompt('Enter the base')
+
+                        var h= prompt('Enter the height')
+
+                        var result = Number(b) * Number(h) / 4
+
+                        alert('The Area is' + result)
+                    }
+
+
+        </script>
+    </body>
+</html>
